@@ -1,0 +1,56 @@
+/* chat-container.component.css */
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.message-list {
+    padding: 16px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.message-list .message {
+    margin-bottom: 16px;
+    padding: 8px;
+    background-color: #e9e9e9;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.messageinput {
+    display: flex;
+    padding: 8px 16px;
+    background-color: #fff;
+}
+
+.app-message-input {
+    flex: 1;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.app-message-input input {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.app-message-input button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+}

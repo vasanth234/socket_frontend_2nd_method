@@ -1,0 +1,13 @@
+<div class="chat-container">
+    <div class="message-list">
+      <app-message-list [messages]="messages"></app-message-list>
+    </div>
+    <div class="messageinput">
+      <!-- Pass the emitted message to onSendMessage -->
+      <app-message-input (sendMessage)="onSendMessage($event)"></app-message-input>
+    </div>
+  </div>
+
+
+
+  
