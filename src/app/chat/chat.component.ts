@@ -20,6 +20,7 @@ export class ChatComponent implements OnInit {
 
   onSendMessage(message: string) {
     // Send the message to the socket server
+    //added the message
     if (message.trim()) {
       this.socketService.emit('send-message', message);
     }
